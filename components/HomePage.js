@@ -92,18 +92,20 @@ export default function HomePage() {
           </div>
           
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-            <Users className="w-12 h-12 mx-auto mb-4 text-blue-600" />
-            <h3 className="text-xl font-bold mb-2">Categories</h3>
-            <p>Under 12s, Under 15s, Under 18s</p>
-            <p>1000+ Players Expected</p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <Trophy className="w-12 h-12 mx-auto mb-4 text-blue-600" />
             <h3 className="text-xl font-bold mb-2">Prize Pool</h3>
             <p>$10,000 Total Prizes</p>
             <p>Trophies & Medals</p>
           </div>
+
+          <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+            <Users className="w-12 h-12 mx-auto mb-4 text-blue-600" />
+            <h3 className="text-xl font-bold mb-2">Categories</h3>
+            <p>Under 12s, Under 15s, Under 18s</p>
+            <p>1000+ Players Expected</p>
+          </div>
+
+          
         </div>
 
         {/* Age Categories & Tournament Structure */}
