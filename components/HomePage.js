@@ -49,9 +49,9 @@ export default function HomePage() {
   const [activeTab, setActiveTab] = useState('u12');
   
   const ageCategories = {
-    u12: 'Under 12s',
-    u15: 'Under 15s',
-    u18: 'Under 18s'
+    u18: 'Under 18s',
+    u30: 'Under 30s',
+    u50: '30 and Over'
   };
 
   return (
@@ -136,19 +136,25 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold text-center mb-8">Special Appearances</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4"></div>
-              <h3 className="font-bold mb-2">Tim Cahill</h3>
-              <p>Socceroos Legend</p>
+              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4">
+                <img src="/promoplayers/AdrianSegecic.webp" alt="Adrian Segecic" className="w-full h-full object-cover rounded-full" />
+              </div>
+              <h3 className="font-bold mb-2">Adrian Segecic</h3>
+              <p>Sydney FC Star</p>
             </div>
             <div className="text-center">
-              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4"></div>
-              <h3 className="font-bold mb-2">Sam Kerr</h3>
-              <p>Matildas Captain</p>
+              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4">
+                <img src="/promoplayers/DouglasCosta.jpg" alt="Douglas Costa" className="w-full h-full object-cover rounded-full" />
+              </div>
+              <h3 className="font-bold mb-2">Douglas Costa</h3>
+              <p>Sydney FC Star</p>
             </div>
             <div className="text-center">
-              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4"></div>
-              <h3 className="font-bold mb-2">Harry Kewell</h3>
-              <p>Former Liverpool Star</p>
+              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4">
+                <img src="/promoplayers/PatrykKlimala.webp" alt="Patryk Klimala" className="w-full h-full object-cover rounded-full" />
+              </div>
+              <h3 className="font-bold mb-2">Patryk Klimala</h3>
+              <p>Sydney FC Star</p>
             </div>
           </div>
         </section>
